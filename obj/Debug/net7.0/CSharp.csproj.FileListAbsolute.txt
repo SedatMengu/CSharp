@@ -1,0 +1,14 @@
+/Users/sedatmengu/Documents/GitHub/CSharp/bin/Debug/net7.0/CSharp
+/Users/sedatmengu/Documents/GitHub/CSharp/bin/Debug/net7.0/CSharp.deps.json
+/Users/sedatmengu/Documents/GitHub/CSharp/bin/Debug/net7.0/CSharp.runtimeconfig.json
+/Users/sedatmengu/Documents/GitHub/CSharp/bin/Debug/net7.0/CSharp.dll
+/Users/sedatmengu/Documents/GitHub/CSharp/bin/Debug/net7.0/CSharp.pdb
+/Users/sedatmengu/Documents/GitHub/CSharp/obj/Debug/net7.0/CSharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sedatmengu/Documents/GitHub/CSharp/obj/Debug/net7.0/CSharp.AssemblyInfoInputs.cache
+/Users/sedatmengu/Documents/GitHub/CSharp/obj/Debug/net7.0/CSharp.AssemblyInfo.cs
+/Users/sedatmengu/Documents/GitHub/CSharp/obj/Debug/net7.0/CSharp.csproj.CoreCompileInputs.cache
+/Users/sedatmengu/Documents/GitHub/CSharp/obj/Debug/net7.0/CSharp.dll
+/Users/sedatmengu/Documents/GitHub/CSharp/obj/Debug/net7.0/refint/CSharp.dll
+/Users/sedatmengu/Documents/GitHub/CSharp/obj/Debug/net7.0/CSharp.pdb
+/Users/sedatmengu/Documents/GitHub/CSharp/obj/Debug/net7.0/CSharp.genruntimeconfig.cache
+/Users/sedatmengu/Documents/GitHub/CSharp/obj/Debug/net7.0/ref/CSharp.dll

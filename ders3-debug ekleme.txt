@@ -1,0 +1,5 @@
+debug ekleme ;
+
+en üstte görünnen view bölümüne giderek command panel açıyoruz ve .net generate assests for build and debug seçiyoruz ve ana dizin içerisinde .vscode adında bir klasör oluşuyor.
+
+sol taraftaki run end debug ile projemizin belirlediğimiz bir kısmını debug modunda çalıştırabiliriz.

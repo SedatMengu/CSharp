@@ -1,0 +1,30 @@
+C Sharp Dersleri - 1
+
+ilk adım olarak birtane C# projesi oluşturacağız.
+
+bunun için dotnet new console
+
+değişken türleri ,
+
+1- byte     : 0 ile 255 arasında tam sayı değerler alır.
+2- short    : 32767 ile -32768 arasında tam sayı değerler alır.
+3- int      : 2147483647 ile -2147483648 arasında tam sayı değerler alır. (11 basamaklı)
+4- long     : 9223372036854775807 ile -9223372036854775808 arsaında tam sayı değerler alır. (21 basamaklı)
+5- float    : 3.4028235E+38F ile -3.4028235E+38F arasında ondalıklı değerler alır. / sonuna F koymamız gerekir.
+6- double   : 1.7976931348623157E+308 ile -1.7976931348623157E+308 arasında onlaıklı değerler alır.
+7- decimal  : 79228162514264337593543950335M ile -79228162514264337593543950335M arasında ondalıklı değerler alır. / sonuna M koymamız gerekir.
+8- char     : tek karakter tanımlamakta kullanılır. "" içerisinde yazılır.
+9- string   : yazısal ifadelerde kullanılır. "" içerisinde yazılır.
+10- boolean  : true veya false sonucunun dönmesini istediğimiz durumlarda kullanırız. true veya false dışında başka cevap vermez.
+
+
+notlar: değişken tanımlarken aşağıdaki notlara dikkat etmemiz gerekir.
+
+1- sayi ile başlayamaz
+2- ifade arasında herhangi bir alanda boşluk olmaz,
+3- türkçe karakterler kullanılmaz,
+4- dile özgü anahtar kelimeler kullanılmaz.
+5- decimal ile float kendi içlerinde toplanabilir , diğer türler ile toplanamazlar.
+
+
+

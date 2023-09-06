@@ -1,0 +1,82 @@
+C Sharp Dersleri - 2
+
+tür dönüşümleri
+
+neden tür dönüşümleri yapıyoruz.
+
+1- Veri Tipleri Arasında Uyum Sağlama:
+Farklı veri tipleri farklı boyutlarda ve temsillerde verileri saklar. 
+Tür dönüşümleri, farklı tipler arasında veri uyumunu sağlar.
+
+2- İşlem Uyumluluğu:
+İşlemler (toplama, çıkarma, çarpma, bölme vb.) genellikle aynı veri türlerindeki veriler üzerinde çalışır. 
+Tür dönüşümleri, farklı türlerdeki verileri aynı türe dönüştürerek işlem uyumluluğunu sağlar.
+
+3- Değer Aralığı Uyumu:
+Bir türün değer aralığı, diğer türün değer aralığına uymayabilir. 
+Örneğin, bir tamsayı türü bir ondalıklı sayı türünün değer aralığını tam olarak temsil edemez. 
+Tür dönüşümleri, değer aralığı uyumsuzluklarını ele alır.
+
+4- İşlevsellik ve Doğruluk:
+Bazı durumlarda, belirli bir işlevi yerine getirebilmek için tür dönüşümleri gerekebilir. 
+Örneğin, bir string ifadesini sayıya dönüştürmek için dönüşüm yapabilirsiniz.
+
+
+Console.Readline() metodu kullanıcı tarafından girilen değerleri otomatik string olarak algılayacağından dolayı tür dönüşümü yapmak gerekir.
+
+1- implicit casting : otomatik veri dönüşümü
+
+daha düşük hacimli sayıyı daha büyük bir veri tipi içerisine atayabiliriz.
+örneğin byte tipinde tanımlanan bir değişkeni long veri tipinde saklayabiliriz , bunun için ekstra bir şey yapmamıza gerek yok.
+
+byte a = 80;
+long b = a; 
+
+Console.WriteLine(b); şeklinde bir şay yapmak istesek bu şekilde mümkündür ve hata vermez.
+
+
+2- explicit casting : zorunlu veri dönüşümü 
+
+daha düşük hacimli sayıyı daha büyük bir veri tipi içerisine atayabiliriz.
+örneğin byte 0-255 arası bir değer alabilir , short ise 32767 ile -32768 arasında değer alabilir. 
+
+short c = 365;
+byte d = c ;
+
+Console.WriteLine(c);
+
+şeklinde bir kod parçası çalıştırırsak şu hatayı alırız.
+
+"error CS0266: Cannot implicitly convert type 'short' to 'byte'. An explicit conversion exists (are you missing a cast?)"
+
+short c = 5;
+byte d = (byte) c ;
+
+Console.WriteLine(c);
+
+bu şekilde bi değişiklik yaparsak hata ortadan kalkmış olur.
+
+string olmayan (boolean veya rakamsal olabilir) ifadeyi string bir ifadeye döndürmek istersek ;
+
+short g = 10;
+string h = (string)g
+
+Console.WriteLine(g);
+
+"error CS0030: Cannot convert type 'short' to 'string' " hatasını alırız.
+
+string dönüşümü yapmak için ;
+
+short g = 10;
+string h = g.ToString();
+
+Console.WriteLine(g);
+
+yazmamız gerekir.
+
+bool g = false;
+string h = g.ToString();
+
+Console.WriteLine(g);       // False (veri tipi string)
+
+yazmamız gerekir.

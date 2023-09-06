@@ -1,35 +1,36 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    "net7.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Sedat MENGU\\.nuget\\packages\\": {}
+    "/Users/sedatmengu/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\CSharp\\CSharp.csproj",
+      "projectUniqueName": "/Users/sedatmengu/Documents/GitHub/CSharp/CSharp.csproj",
       "projectName": "CSharp",
-      "projectPath": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\CSharp\\CSharp.csproj",
-      "packagesPath": "C:\\Users\\Sedat MENGU\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\CSharp\\obj\\",
+      "projectPath": "/Users/sedatmengu/Documents/GitHub/CSharp/CSharp.csproj",
+      "packagesPath": "/Users/sedatmengu/.nuget/packages/",
+      "outputPath": "/Users/sedatmengu/Documents/GitHub/CSharp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Sedat MENGU\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/sedatmengu/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net7.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {}
         }
       },
@@ -40,14 +41,16 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
+      "net7.0": {
+        "targetAlias": "net7.0",
         "imports": [
           "net461",
           "net462",
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -56,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.425\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }
