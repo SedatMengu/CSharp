@@ -1,0 +1,11 @@
+ders-5 string metotları,
+
+string msg = "  hello there. my name is sedat mengü";
+
+// Console.WriteLine(msg.Length);
+// Console.WriteLine(msg.ToLower());
+// Console.WriteLine(msg.ToUpper());
+// Console.WriteLine(msg.Trim());
+Console.WriteLine(msg.TrimStart());
+// Console.WriteLine(msg.TrimEnd());
+Console.WriteLine(msg.Split()[0]);

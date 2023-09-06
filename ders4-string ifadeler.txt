@@ -1,0 +1,20 @@
+string name = "sedat";
+string surname = "mengü";
+byte age = 34;
+
+Console.WriteLine("my name is sedat mengü , I'am 34 years old.");
+Console.WriteLine("my name is " + name + " " + surname + " , I'am "+age+" years old.");
+Console.WriteLine(string.Format("My name is {0} {1} , I'am {2} years old.",name,surname,age));
+Console.WriteLine($"My name is {name} {surname} , I'am {age} years old.");
+
+
+Console.Write("name : ");
+string name1 = Console.ReadLine();
+Console.Write("surname : ");
+string surname1 = Console.ReadLine();
+Console.Write("age1 : ");
+byte age1 = byte.Parse(Console.ReadLine());
+Console.Write("age2 : ");
+byte age2 = byte.Parse(Console.ReadLine());
+
+Console.WriteLine($"My name is {name1} {surname1} , I'am {age1+age2} years old.");

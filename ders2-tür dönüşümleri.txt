@@ -80,3 +80,25 @@ string h = g.ToString();
 Console.WriteLine(g);       // False (veri tipi string)
 
 yazmamız gerekir.
+
+// kısa ve uzun kenarları verilen bir dikdörtgenin alan ve çevresini bulma,
+
+Console.Write("Kısa Kenar Giriniz : ");
+int kisaKenar = int.Parse(Console.ReadLine());
+Console.Write("Uzun Kenar Giriniz : ");
+int uzunKenar = int.Parse(Console.ReadLine());
+
+int alan = kisaKenar*uzunKenar;
+int cevre = (kisaKenar+uzunKenar)*2;
+
+Console.WriteLine($"Girilen Kenarlara Göre Alan : {alan}");
+Console.WriteLine($"Girilen Kenarlara Göre Çevre : {cevre}");
+
+
+Console.Write("Kısa Kenar Giriniz : ");
+int kisaKenar1 = int.Parse(Console.ReadLine());
+Console.Write("Uzun Kenar Giriniz : ");
+var uzunKenar1 = int.Parse(Console.ReadLine());
+
+Console.WriteLine($"Girilen Kenarlara Göre Alan : {kisaKenar1*uzunKenar1}");
+Console.WriteLine($"Girilen Kenarlara Göre Çevre : {(kisaKenar1+uzunKenar1)*2}");
