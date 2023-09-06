@@ -136,15 +136,38 @@
 
 // Console.WriteLine($"My name is {name1} {surname1} , I'am {age1+age2} years old.");
 
-string msg = "  hello there. my name is sedat mengü";
+// string msg = "hello there. my name is sedat mengü.";
 
-// Console.WriteLine(msg.Length);
-// Console.WriteLine(msg.ToLower());
-// Console.WriteLine(msg.ToUpper());
-// Console.WriteLine(msg.Trim());
-Console.WriteLine(msg.TrimStart());
-// Console.WriteLine(msg.TrimEnd());
-Console.WriteLine(msg.Split()[0]);
-Console.WriteLine(msg.Length);
-Console.WriteLine(msg.Length);
+// Console.WriteLine(msg.Length);                   // yazı karakter uzunluğunu verir.
+// Console.WriteLine(msg.ToLower());                // bütün ifadeyi küçük harf yapar.
+// Console.WriteLine(msg.ToUpper());                // bütün ifadeyi büyük harf yapar.
+// Console.WriteLine(msg.Trim());                   // herhangi bir parametre vermediğimiz için boşluktan ifadeyi böler.
+// Console.WriteLine(msg.TrimStart());              // başlangıçtaki boşluk ifadelerini siler
+// Console.WriteLine(msg.TrimEnd());                // yazı sınundaki boşluk ifadelerini siler.
+// Console.WriteLine(msg.Split()[2]);               // boşluklardan bölerek 2.indexteki ifadeyi döner. (my)
+// Console.WriteLine(msg[1]);                       // 1.indeksteki sayıyı döner.(e)
+// Console.WriteLine(msg.StartsWith("H"));          // ifade H ile mi başlıyor. sonuç boolean
+// Console.WriteLine(msg.StartsWith("h"));          // ifade h ile mi başlıyoru .sonuç boolean
+// Console.WriteLine(msg.StartsWith("hello"));      // ifade hello ile mi başlıyoru. sonuç boolean
+// Console.WriteLine(msg.EndsWith("Ü"));            // ifade Ü ile mi bitiyor. sonuç boolean
+// Console.WriteLine(msg.EndsWith("ü"));            // ifade ü ile mi bitiyor. sonuş boolean
+// Console.WriteLine(msg.EndsWith("mengü"));        // ifade mengü ile mi bitiyor. sonuç boolean
+// Console.WriteLine(msg.EndsWith("mengü."));       // ifade mengü. ile mi bitiyor. sonuç boolean
+// Console.WriteLine(msg.Contains("mengü"));        // mengü idadesini içeriyor mu. sonuç boolean
+// Console.WriteLine(msg.Contains("mengu"));        // mengu ifadesini içeriyor mu. sonuç boolean
+// Console.WriteLine(msg.IndexOf("is"));            // is kaçıncı indexten sonra başlıyor. sonuç sayısal bir değer.
+// Console.WriteLine(msg.Substring(5));             // 5.indexten sonrasını yazdırır.
+// Console.WriteLine(msg.Substring(5,18));          // 5.indexten sonra 18 karakter getirsin.
 
+// Console.WriteLine(msg.Replace("e","a"));          // "e" karakterlerini "a" karakterleri ile değiştirir.
+// Console.WriteLine(msg.Replace(" ","-"));          // boşluk karakterlerini "-" ile değiltirir.
+// Console.WriteLine(msg.Replace("my",""));          // "my" karakterlerini sildik.
+
+// Console.WriteLine(msg.Insert(0,"123"));          // 0.karakterden sonra 123 ifadesi eklenir.
+// Console.WriteLine(msg.Insert(msg.Length,"abc")); // msg.length karaketerinden sonra abc ifadesini ekledik.
+
+
+// Console.WriteLine(msg.Remove(5));          // 5.indexten sonrasını siler ve kalan ifadeyi return eder.
+// Console.WriteLine(msg.Remove(5,5));          // 5.indexten itibaren 5 karakter siler ve kalanı return eder.
+
+using System.Diagnostics;
