@@ -170,4 +170,21 @@
 // Console.WriteLine(msg.Remove(5));          // 5.indexten sonrasını siler ve kalan ifadeyi return eder.
 // Console.WriteLine(msg.Remove(5,5));          // 5.indexten itibaren 5 karakter siler ve kalanı return eder.
 
-using System.Diagnostics;
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// diziler
+
+using Microsoft.VisualBasic;
+
+string msg = "hey there. my name is sedat mengü.";
+
+var result = msg.Split();
+
+
+Console.WriteLine(result[0]);
+Console.WriteLine(result[1]);
+Console.WriteLine(result[2]);
+Console.WriteLine(result[3]);
+Console.WriteLine(result[4]);
+Console.WriteLine(result[5]);
+Console.WriteLine(result[6]);

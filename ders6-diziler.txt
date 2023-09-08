@@ -1,0 +1,59 @@
+diziler nedir ve ne amaçla kullanılır?
+
+C# programlamada diziler, aynı veri türünden birden fazla değeri saklamak ve 
+bu değerlere erişmek için kullanılan veri yapılarıdır.
+
+Diziler, aynı türdeki öğeleri içeren, indekslenmiş bir koleksiyon olarak düşünülebilir.
+
+Diziler, çeşitli programlama görevlerini gerçekleştirmek için çok kullanışlıdır ve 
+özellikle aynı türdeki verileri gruplamak veya işlemek gerektiğinde kullanılırlar.
+
+
+Dizilerin bazı temel özellikleri şunlardır:
+
+1- Sabit Boyutlu: 
+
+Bir dizi bir kez oluşturulduğunda, boyutu sabittir ve değiştirilemez. 
+Yani bir dizi oluşturulurken kaç öğe içereceği belirtilmelidir.
+
+
+2- İndekslenmiş:
+
+Diziler, her bir öğeye bir indeks (sıra numarası) ile erişilebilen veri yapılardır. 
+İndeksler genellikle sıfırdan başlayarak numaralandırılır.
+
+3- Aynı Türdeki Öğeler:
+
+Bir dizi, aynı veri türünden öğeleri içerir. 
+Örneğin, bir tam sayı dizisi sadece tam sayıları içerir.
+
+
+Diziler, birçok farklı programlama görevi için kullanılırlar:
+
+1- Veri Saklama: 
+
+Diziler, benzer verileri gruplamak ve düzenlemek için kullanılır. 
+Örneğin, bir dizi içinde birçok öğrencinin notlarını saklamak için kullanılabilirsiniz.
+
+
+2- İşleme ve Döngüler: 
+
+Diziler, birçok öğe üzerinde döngüler kullanarak işlem yapmanızı sağlar. 
+Bu sayede, öğeleri sırayla işleyebilir veya belirli koşulları karşılayan öğeleri seçebilirsiniz.
+
+
+3- Veri Yapıları Oluşturma: 
+
+Diziler, daha karmaşık veri yapılarını oluşturmak için temel bir yapı taşı olarak kullanılabilirler. 
+Örneğin, matrisler veya çok boyutlu diziler, karmaşık veri yapıları oluşturmanıza yardımcı olabilir.
+
+
+4- Performans İyileştirmeleri: 
+
+Bazı algoritma ve işlemler, dizilerin kullanımıyla daha etkili bir şekilde gerçekleştirilebilir. 
+Örneğin, sıralama veya arama algoritmaları için diziler yaygın olarak kullanılır.
+
+
+Diziler, C# ve diğer birçok programlama dilinde temel bir veri yapısıdır ve birçok programın temel bileşenlerinden biridir. 
+Çoğu zaman verilerin düzenlenmesi, işlenmesi ve yönetilmesi için kullanılırlar.
+
