@@ -176,7 +176,13 @@
 
 using Microsoft.VisualBasic;
 
-string msg = "hey there. my name is sedat mengü.";
+string msg = "hello there. my name is sedat mengü.";
+Console.WriteLine(msg[0]);
+Console.WriteLine(msg[1]);
+Console.WriteLine(msg[2]);
+Console.WriteLine(msg[3]);
+Console.WriteLine(msg[4]);
+
 
 var result = msg.Split();
 
@@ -188,3 +194,47 @@ Console.WriteLine(result[3]);
 Console.WriteLine(result[4]);
 Console.WriteLine(result[5]);
 Console.WriteLine(result[6]);
+
+
+
+string [] isimler = {"ali2","oya2","can2","eda2","pars2"};
+// isimler[0]="ali";
+// isimler[1]="oya";
+// isimler[2]="can";
+// isimler[3]="eda";
+// isimler[4]="pars";
+
+string[] sehirler = {"adana","ankara","istanbul"};
+sehirler[0]="adana";
+sehirler[1]="ankara";
+sehirler[2]="istanbul";
+
+int [] rakamlar = new int[3];
+rakamlar[0]=100;
+rakamlar[1]=101;
+rakamlar[2]=102;
+
+string[] siniflar = {"5/A2","5/B2","5/C2","5/D2","5/E2"};
+// siniflar[0]="5/A";
+// siniflar[1]="5/B";
+// siniflar[2]="5/C";
+// siniflar[3]="5/D";
+// siniflar[4]="5/E";
+
+string[] ulkeler = new string[7];
+ulkeler[0]="Gana";
+ulkeler[1]="Gine";
+ulkeler[2]="Fas";
+ulkeler[3]="Kore";
+
+string[] takimlar = new string[5];
+takimlar[1]="Takım1";
+takimlar[1]="Takım1";
+takimlar[2]="Takım1";
+takimlar[3]="Takım1";
+takimlar[4]="Takım1";
+
+Console.WriteLine($"isim : {isimler[0]},sınıf : {siniflar[0]}");
+
+
+
