@@ -127,3 +127,4 @@ dizi içerisindeki herhangi bir indexteki elemanı tekrar tanımlayarak güncell
 
 
 string [] isimler2 = {"ali","veli","ada","nil"}
+
