@@ -128,3 +128,20 @@ dizi içerisindeki herhangi bir indexteki elemanı tekrar tanımlayarak güncell
 
 string [] isimler2 = {"ali","veli","ada","nil"}
 
+
+dizi metotları: 
+
+1- SetValue : dizideki elemanlardan herhangi birisini değiştirmek içimn kullanılır:
+
+örnek :
+
+string [] isimler2 = {"ali","veli","ada","nil"}
+
+siniflar.SetValue("ozan",0);
+
+Console.WriteLine(siniflar[0]);
+Console.WriteLine(siniflar.getValue(0));
+
+bu 2 satırda aynı sonucu verir.
+
+2- 
