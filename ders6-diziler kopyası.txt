@@ -131,7 +131,7 @@ string [] isimler2 = {"ali","veli","ada","nil"}
 
 dizi metotları: 
 
-1- SetValue : dizideki elemanlardan herhangi birisini değiştirmek içimn kullanılır:
+1- SetValue metodu : dizideki elemanlardan herhangi birisini değiştirmek içimn kullanılır:
 
 örnek :
 
@@ -144,4 +144,64 @@ Console.WriteLine(siniflar.getValue(0));
 
 bu 2 satırda aynı sonucu verir.
 
-2- 
+
+
+2- IndexOf metodu : 
+
+Belirli bir öğenin dizideki ilk indeksini döndürür.
+
+int[] numbers = { 1, 2, 3, 4, 5 };
+int index = Array.IndexOf(numbers, 3);
+Console.WriteLine(index);
+
+
+3- length özelliği : 
+
+dizideki eleman sayısını döndüren bir özelliktir.
+
+string[] siniflar = {"5/A3","5/B3","5/C3","5/D3","5/E3"};
+Console.WriteLine(siniflar.Length);
+
+
+4- sort metodu : dizideki elemanları alfabetik sıraya göre sıralar ama geriye döndürmez. getValue ile yakalamak gerekir.
+
+int[] numbers = { 1, 2, 3, 4, 5,9,8,7,6,4,5,6 };
+Array.Sort(numbers);
+Console.WriteLine(numbers.GetValue(9));
+
+Array.sort ile numbers dizisindeki elemanları sıraladık ancak herhangi bir belirti göstermedi. 
+işe yaradığını anlamak için getValue ifadesini kullandık.
+
+
+5- Reverse metodu : dizideki elemanları mevcut halinden ters çevirir ancak geri döndürmez. yakalamak için getValue kullanmak gerekir.
+
+int[] numbers = { 1, 2, 3, 4, 5,9,8,7,6,4,5,6 };
+Array.Reverse(numbers);
+Console.WriteLine(numbers.GetValue(9));
+
+
+6- clear metodu : dizideki elemanların bazılarını silmeye yarar.
+
+int[] numbers = {1,2,3,4};
+Array.Clear(numbers,0,2);
+Console.WriteLine(numbers.GetValue(0));
+
+silinen değerler yerine 0 değerl atanmış olur.
+
+7- ^ ifadesi : listeyi tersten değerlendirmeye yarar. pythondaki -1 gibi. tek püf noktası en son karakter ^1 dir.
+
+int[] numbers = {1,2,3,4};
+Console.WriteLine(numbers[^2]);
+
+sonuç : 3
+
+8- slice metodu : dizide herhangi bir aralıkta verileri almaya yarar.
+
+var msg = "hello world!";
+Console.WriteLine(msg[..4]);
+
+sonuç : hell
+
+
+
+

@@ -238,10 +238,14 @@
 
 
 
-string[] siniflar = {"5/A3","5/B3","5/C3","5/D3","5/E3"};
+// string[] siniflar = {"5/A3","5/B3","5/C3","5/D3","5/E3"};
 
 
-siniflar.SetValue("ozan",0);
+// siniflar.SetValue("ozan",0);
 
-Console.WriteLine(siniflar[0]);
-Console.WriteLine(siniflar.GetValue(1));
+// Console.WriteLine(siniflar[0]);
+// Console.WriteLine(siniflar.GetValue(1));
+// IndexOf: Belirli bir öğenin dizideki ilk indeksini döndürür.
+
+var msg = "hello world!";
+Console.WriteLine(msg[..4]);
