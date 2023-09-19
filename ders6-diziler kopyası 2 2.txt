@@ -1,0 +1,130 @@
+diziler nedir ve ne amaçla kullanılır?
+
+C# programlamada diziler, aynı veri türünden birden fazla değeri saklamak ve 
+bu değerlere erişmek için kullanılan veri yapılarıdır.
+
+Diziler, aynı türdeki öğeleri içeren, indekslenmiş bir koleksiyon olarak düşünülebilir.
+
+Diziler, çeşitli programlama görevlerini gerçekleştirmek için çok kullanışlıdır ve 
+özellikle aynı türdeki verileri gruplamak veya işlemek gerektiğinde kullanılırlar.
+
+
+Dizilerin bazı temel özellikleri şunlardır:
+
+1- Sabit Boyutlu: 
+
+Bir dizi bir kez oluşturulduğunda, boyutu sabittir ve değiştirilemez. 
+Yani bir dizi oluşturulurken kaç öğe içereceği belirtilmelidir.
+
+
+2- İndekslenmiş:
+
+Diziler, her bir öğeye bir indeks (sıra numarası) ile erişilebilen veri yapılardır. 
+İndeksler genellikle sıfırdan başlayarak numaralandırılır.
+
+3- Aynı Türdeki Öğeler:
+
+Bir dizi, aynı veri türünden öğeleri içerir. 
+Örneğin, bir tam sayı dizisi sadece tam sayıları içerir.
+
+
+Diziler, birçok farklı programlama görevi için kullanılırlar:
+
+1- Veri Saklama: 
+
+Diziler, benzer verileri gruplamak ve düzenlemek için kullanılır. 
+Örneğin, bir dizi içinde birçok öğrencinin notlarını saklamak için kullanılabilirsiniz.
+
+
+2- İşleme ve Döngüler: 
+
+Diziler, birçok öğe üzerinde döngüler kullanarak işlem yapmanızı sağlar. 
+Bu sayede, öğeleri sırayla işleyebilir veya belirli koşulları karşılayan öğeleri seçebilirsiniz.
+
+
+3- Veri Yapıları Oluşturma: 
+
+Diziler, daha karmaşık veri yapılarını oluşturmak için temel bir yapı taşı olarak kullanılabilirler. 
+Örneğin, matrisler veya çok boyutlu diziler, karmaşık veri yapıları oluşturmanıza yardımcı olabilir.
+
+
+4- Performans İyileştirmeleri: 
+
+Bazı algoritma ve işlemler, dizilerin kullanımıyla daha etkili bir şekilde gerçekleştirilebilir. 
+Örneğin, sıralama veya arama algoritmaları için diziler yaygın olarak kullanılır.
+
+
+Diziler, C# ve diğer birçok programlama dilinde temel bir veri yapısıdır ve birçok programın temel bileşenlerinden biridir. 
+Çoğu zaman verilerin düzenlenmesi, işlenmesi ve yönetilmesi için kullanılırlar.
+
+Not: string ifadeler de bir dizidir.
+
+dizi örnekleri:
+
+string msg = "hello there. my name is sedat mengü.";
+Console.WriteLine(msg[0]);
+Console.WriteLine(msg[1]);
+Console.WriteLine(msg[2]);
+Console.WriteLine(msg[3]);
+Console.WriteLine(msg[4]);
+
+
+var result = msg.Split();
+
+
+Console.WriteLine(result[0]);
+Console.WriteLine(result[1]);
+Console.WriteLine(result[2]);
+Console.WriteLine(result[3]);
+Console.WriteLine(result[4]);
+Console.WriteLine(result[5]);
+Console.WriteLine(result[6]);
+
+
+
+string [] isimler = new string[5];
+isimler[0]="ali";
+isimler[1]="oya";
+isimler[2]="can";
+isimler[3]="eda";
+isimler[4]="pars";
+
+string[] sehirler = new string[3];
+sehirler[0]="adana";
+sehirler[1]="ankara";
+sehirler[3]="istanbul";
+
+int [] rakamlar = new int[3];
+rakamlar[0]=100;
+rakamlar[1]=101;
+rakamlar[2]=102;
+
+string[] siniflar = new string[6];
+siniflar[0]="5/A";
+siniflar[1]="5/B";
+siniflar[2]="5/C";
+siniflar[3]="5/D";
+siniflar[4]="5/E";
+
+string[] ulkeler = new string[7];
+ulkeler[0]="Gana";
+ulkeler[1]="Gine";
+ulkeler[2]="Fas";
+ulkeler[3]="Kore";
+
+string[] takimlar = new string[5];
+takimlar[1]="Takım1";
+takimlar[1]="Takım1";
+takimlar[2]="Takım1";
+takimlar[3]="Takım1";
+takimlar[4]="Takım1";
+
+dizi içerisindeki herhangi bir indexteki elemanı tekrar tanımlayarak güncelleyebiliriz.
+= new string[rakam] / [] içerisindeki rakam dizideki eleman sayısını belirtir.
+
+
+- 2.dizi tanımlama yöntemi :
+
+
+string [] isimler2 = {"ali","veli","ada","nil"}
+
